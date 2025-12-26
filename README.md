@@ -177,6 +177,9 @@ services:
       - POSTGRES_USER=testuser
       - POSTGRES_PASSWORD=testpass
 
+ 5.4 Добавляем docker-compose.yml
+
+
    5.5 Убеждаемся, что файлы в системе:
 ls -l
    <img width="545" height="116" alt="image" src="https://github.com/user-attachments/assets/e2a07bcb-0a70-405b-b385-319c0ae895bc" />
@@ -197,9 +200,3 @@ docker-compose up --build -d
 7 Проверяем в браузере Windows:
        http://localhost:1234/
        <img width="421" height="154" alt="image" src="https://github.com/user-attachments/assets/13d80dd6-63ad-4fb7-a2ff-4562de57d0c2" />
-
-
----
-EOF
-
-   5.4 Добавляем docker-compose.yml
