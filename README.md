@@ -5,7 +5,8 @@
 
 
 ## Подготовка
-переходим по ссылке https://www.docker.com/products/docker-desktop/
+переходим по ссылке
+https://www.docker.com/products/docker-desktop/
 и скачиваем Docker Deskstop
 
 Заходим в Microsoft Strore и устанавливаем Ubuntu (Для упрощения работы с линукс)
@@ -48,7 +49,7 @@
 Запускаем Ubuntu например через поиск. В нем пишем команду 
 
    
-   sudo apt update && sudo apt upgrade -y
+      sudo apt update && sudo apt upgrade -y
    
 и ждем окончание обновления
 
@@ -57,25 +58,25 @@
    
    4.1 Установка зависимостей
    
-   sudo apt install -y ca-certificates curl gnupg lsb-release
+      sudo apt install -y ca-certificates curl gnupg lsb-release
    
    4.2 GPG-ключ
    
-   sudo mkdir -p /etc/apt/keyrings
-   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+      sudo mkdir -p /etc/apt/keyrings
+      curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
    
    4.3  Добавление репозитория
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
  
    4.4 Установка docker
  
-sudo apt update
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+      sudo apt update
+      sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
  
    4.5 Проверка
    
-   docker --version
-   docker compose version
+     docker --version
+     docker compose version
    
    <img width="488" height="74" alt="image" src="https://github.com/user-attachments/assets/75e6e31d-6e70-4e86-a6a8-a6f9d0d83d4c" />
    <img width="372" height="43" alt="image" src="https://github.com/user-attachments/assets/2f5a6712-4324-4703-a920-1f45ca93e23d" />
@@ -89,7 +90,7 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin d
 ## 5 Создаем приложение и Dockerfile
    5.1 создаем папку проекта
  
- mkdir ~/myapp && cd ~/myapp
+    mkdir ~/myapp && cd ~/myapp
  
    <img width="311" height="83" alt="image" src="https://github.com/user-attachments/assets/2e2d25cb-d280-4330-bf75-86447fdf263f" />
 
