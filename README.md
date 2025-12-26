@@ -26,13 +26,13 @@
 
 ## 1. Установка WSL2 (в PowerShell от имени администратора):
    
-   wsl --install
+      wsl --install
    
    
-    или
+   или
 
    
-   wsl --update
+      wsl --update
    
 
 <img width="413" height="94" alt="image" src="https://github.com/user-attachments/assets/877087e8-61fa-4f14-9042-9fb7c1dbe335" />
