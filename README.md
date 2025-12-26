@@ -201,4 +201,4 @@ docker-compose up --build -d
 7 Проверяем в браузере Windows:
        http://localhost:1234/
        
-       <img width="421" height="154" alt="image" src="https://github.com/user-attachments/assets/13d80dd6-63ad-4fb7-a2ff-4562de57d0c2" />
+   <img width="421" height="154" alt="image" src="https://github.com/user-attachments/assets/13d80dd6-63ad-4fb7-a2ff-4562de57d0c2" />
